@@ -49,9 +49,9 @@ order by Id";
         {
             return await ByTypeA("LaunchStatus", db);
         }
-        public static async Task<List<IdStrDto>> AnswerTypesA(Db? db = null)
+        public static async Task<List<IdStrDto>> ReplyTypesA(Db? db = null)
         {
-            return await ByTypeA(_XpLib.AnswerType, db);
+            return await ByTypeA(_XpLib.ReplyType, db);
         }
         public static async Task<List<IdStrDto>> PrizeTypesA(Db? db = null)
         {
