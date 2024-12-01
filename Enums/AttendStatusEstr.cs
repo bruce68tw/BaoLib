@@ -7,6 +7,6 @@
     {
         public const string Attend = "1";   //已參加
         public const string Finish = "F";   //已完成
-        //public const string Abort = "X";     //中止
+        public const string Cancel = "X";   //已取消
     }
 }
